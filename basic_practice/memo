@@ -1,0 +1,12 @@
+[[CSS 크기]]
+
+고정단위
+1. px
+2. rem
+상대단위
+3. em (부모기준)
+4. vw, vh (뷰포트기준)
+5. % (부모기준)
+
+[[CSS 디자인 참고]]
+https://m2.material.io/design/material-studies/basil.html#typography
