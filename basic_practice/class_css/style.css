@@ -32,3 +32,43 @@ div{
     background-color: var(--green);
     color: var(--beige);
 }
+/* 복합 선택자 */
+/* 후손 */
+.container .user-name{
+    color: darkcyan;
+}
+/* 자식 */
+.container > .item {
+    background-color: coral;
+}
+/* 인접형제선택자 */
+h2 + h3{ 
+    /* h2와 인접한 같은 레벨상의 h3에 적용 */
+    color: aqua;
+}
+/* 형제 */
+h2 ~ h4{
+    /* h2와 같은 레벨상의 h4에 적용 */
+    background-color: coral;
+}
+button:hover{
+    background-color: green;
+}
+.activated:active{
+    background-color: lightgray;
+}
+input{
+    width: 600px;
+}
+input:focus{
+    background-color: coral;
+}
+a{
+    color: black;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: green;
+}

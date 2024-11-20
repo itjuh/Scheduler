@@ -10,3 +10,40 @@
 
 [[CSS 디자인 참고]]
 https://m2.material.io/design/material-studies/basil.html#typography
+
+[[복합 선택자]]
+1. 후손
+2. 자식 >
+3. 인접 형제 + : 같은 레벨 인접위치
+4. 형제 ~ : 같은 레벨
+
+[[선택자 심화]]
+1. :only-child => 자식이 하나 인 것
+2. 자식선택기
+    :last-child => 마지막 자손
+    :first-child => 첫 자손
+    :nth-last-child(n) => 뒤부터
+    :nth-child(n)
+3. 유형선택기
+    first-of-type => 같은유형중 처음
+    nth-of-type(n) => N번째
+    p span:only-of-type =>p의 자식중 span이 하나뿐인 것
+    :last-of-type => 각 요소에서 마지막 유형
+4. :empty 빈 선택
+5. :not(조건) 
+6. [attribute]
+    속성 => 속성이 있음
+    속성=값 => 일치
+    속성^=값 => 값으로 시작
+    속성$=값 => 값으로 종료
+    속성*=값 => 값이 어딘가에 일치
+
+[[가상 선택자]]
+1. :hover
+2. :active
+3. :focus
+4. :link
+5. :visit
+
+[[CSS 선택자 연습]]
+css diner
